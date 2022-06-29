@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.svg">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header class="header-wrapper" id="home">
+        <div class="header">
+            <div class="logo-wrapper">
+                <img src="./assets/imgs/minha logo.svg" alt="">
+            </div>
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="toggle">
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
+                    <div class="menu"></div>
+                    <nav class="menu-items">
+                        <ul>
+                            <li>
+                                <div class="text-wrapper">
+                                    <a href="#home">Home</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-wrapper">
+                                    <a href="#projetos">Projetos</a>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="text-wrapper">
+                                    <a href="#home">Sobre</a>
+                                </div>
+                            </li>
+                            <li class="line">
+                                <div class="division"></div>
+                            </li>
+                            <li>
+                                <div class="text-wrapper last">
+                                    <a href="./Checkbox Animation/index.html">Checkbox Animation</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-wrapper last">
+                                    <a href="./Hover Transition/index.html">Hover Transition</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-wrapper last">
+                                    <a href="./Icon Animation/index.html">Icon Animation</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="front-wrapper" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+            <div class="content">
+                <div class="photo-wrapper">
+                    <img src="./assets/imgs/profile.jpg" alt="perfil">
+                </div>
+                <h1>Thiago de Oliveira Miranda</h1>
+                <h2>Front-end Developer</h2>
+
+            </div>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/thiago-de-oliveira-miranda-5393181a7">Linkedin</a>
+                <a href="https://github.com/ThiagoOMiranda">Github</a>
+            </div>
+        </div>
+
+        <div class="front-wrapper dnone about" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+            <div class="front-text">
+                <h1>Sobre mim:</h1>
+                <p>&emsp; &emsp;Sou formado em Arquitetura e Urbanismo, atuei como projetista industrial durante oito anos com foco no planejamento e desenvolvimento de projetos de instalações. Há alguns anos, gradualmente adquiri interesse pelas áreas de
+                    tecnologia, e atualmente estou cursando minha segunda graduação superior, esta em <b><i>Análise e Desenvolvimento de Sistemas</i></b>. Tenho diversificado meus estudos em conhecimentos de <b><i>Frontend (HTML, CSS, Javascript)</i></b>                    e <b><i>Backend</i></b> com Java. &emsp;
+                    <br> &emsp;&emsp;Busco oportunidades de adquirir aprimoramento nas áreas de <b><i>desenvolvimento</i></b> web sempre com disposição de trabalhar em equipe e aprender mais os demais.
+                </p>
+            </div>
+            <img class="me" src="./assets/imgs/Eu.jpg" alt="eu">
+        </div>
+
+    </header>
+    <main class="container" id="projetos">
+        <h1>Projetos</h1>
+        <div class="card-container">
+            <div class="card-text">
+                <h2>Snack-e</h2>
+                &emsp; &emsp;O exercício proposto consistia em recriar o famoso jogo da cobrinha, visando familiarizar com o básico da estrutura de código do Javascript. Sendo prerrogativas do exercício a implementação de um loop de jogo, condições de incremento e regras
+                de fim de jogo. <br>&emsp; &emsp;Parte importante e adicional da atividade é customizar o código, adicionando melhorias e características próprias com ênfase no aprendizado e na aplicação de novos métodos e funções do Javascript.
+            </div>
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2>Snack-e</h2>
+                    <p>O jogo da cobrinha</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2>To-do-list</h2>
+                    <p>Organizador de tarefas</p>
+                </div>
+            </div>
+            <div class="card-text">
+                <h2>To-do-list</h2>
+                &emsp; &emsp;O desafio proposto consistia em criar uma lista de tarefas <b><i>(TO-DO LIST)</i></b>, tendo como premissa a utilização e prática dos métodos <b><i>element.addEventListener( )</i></b> nos botôes. Os conceitos de <b><i>element.createElement( )</i></b>                e <b><i>element.setAtrribute( )</i></b> foram explorados para criar novos elementos HTML a partir do acionamento do botão de Submit. Para a implementação das regras de geração e inserção de IDs o uso de <b><i>querySelector("li").length</i></b>                foi implantado para controlar quais IDs seriam gerados e como parâmetro para selecionar os elementos pai que seriam removidos ao clicar no botão close. Para aplicar a função de remoção o método <b><i>element.remove( )</i></b> foi aplicado
+                no elemento pai das tarefas.
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card-text">
+                <h2>Poke-Memory</h2>
+                &emsp; &emsp;O exercício proposto consistia em recriar o jogo da memória, com o intúito de aplicar conceitos de programação em Javascript.
+                <br> &emsp; &emsp;O aprimoramento em Javascript nesta atividade se deu através da aplicação dos métodos <b><i>forEach</i></b>, para iterar em conjuntos de elementos do DOM <b><i>(Document Object Model)</i></b>, do uso de seletores do tipo
+                querySelector que foram empregados para selecionar grupos de elementos através de classes e tags e por fim a utilização da palavra reservada this em funções de monitoramento de eventos <b><i>(eventListeners)</i></b>, onde a atribuição
+                do elemento era definida no momento do clique.
+            </div>
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2>Poke-Memory</h2>
+                    <p>O Jogo da Memória Pokemon</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2>Click-counter</h2>
+                    <p>Contador de cliques</p>
+                </div>
+            </div>
+            <div class="card-text">
+                <h2>Click-counter</h2>
+                &emsp; &emsp;O desafio proposto consistia em criar um contador de cliques, tendo como premissa a utilização e prática dos métodos <b><i>AddEventListener nos botôes</i></b>, sem o uso de das funções inline na página. O escopo também exigia
+                a implementação de regras de manipulação de atributos dos elementos da página DOM <b><i>(Documento Object Model)</i></b> através dos métodos <b><i>document.GetElement</i></b>. Parte importante e adicional da atividade é customizar o código,
+                adicionando melhorias e características próprias com ênfase no aprendizado e na aplicação de novos métodos e funções do Javascript.
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card-text">
+                <h2>Gameflix</h2>
+                &emsp; &emsp;O exercício proposto neste projeto, constituiu em desenvolver uma interface básica, similar à da plataforma Netflix, tendo o foco direcionado durante o processo, nos conceitos de <b><i>content wrapper</i></b> ou <i>"conteinerização"</i>,
+                metodologia que explora as características adaptativas do <b><i>Flexbox</i></b> entre os elementos <b><i>pai</i></b> e os elementos <b><i>filhos</i></b>.
+            </div>
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2>Gameflix</h2>
+                    <p>Tela clone do Netflix</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Desenvolvido por Thiago de Oliveira Miranda</p>
+    </footer>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <script type="text/javascript" src="./assets/js/vanilla-tilt.js"></script>
+</body>
+
+</html>
