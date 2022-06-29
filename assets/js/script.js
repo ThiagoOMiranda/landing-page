@@ -67,11 +67,11 @@ changeFront();
 
 function screenMobile(screenSize) {
     if (screenSize.matches) {
-        cards[0].style.backgroundImage = "url(./assets/imgs/snake.gif)";
-        cards[1].style.backgroundImage = "url(./assets/imgs/to-do.gif)";
-        cards[2].style.backgroundImage = "url(./assets/imgs/pokemem.gif)";
-        cards[3].style.backgroundImage = "url(./assets/imgs/click-counter.gif)";
-        cards[4].style.backgroundImage = "url(./assets/imgs/gameflix.gif)";
+        cards[0].style.backgroundImage = "url('./assets/imgs/snake.gif')";
+        cards[1].style.backgroundImage = "url('./assets/imgs/to-do.gif')";
+        cards[2].style.backgroundImage = "url('./assets/imgs/pokemem.gif')";
+        cards[3].style.backgroundImage = "url('./assets/imgs/click-counter.gif')";
+        cards[4].style.backgroundImage = "url('./assets/imgs/gameflix.gif')";
         links[1].addEventListener("click", () => {
             distanceScrolled = project.offsetTop;
             logoWrapper.classList.add("hidden");
