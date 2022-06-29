@@ -25,6 +25,9 @@ cards[2].addEventListener("click", () => {
 cards[3].addEventListener("click", () => {
     location.href = "https://thiagoomiranda.github.io/click-counter/";
 });
+cards[4].addEventListener("click", () => {
+    location.href = "https://thiagoomiranda.github.io/gameflix/";
+});
 
 function unCheck() {
     if (menuToggle.checked) {
@@ -64,10 +67,11 @@ changeFront();
 
 function screenMobile(screenSize) {
     if (screenSize.matches) {
-        cards[0].style.backgroundImage = "url('../imgs/snake.gif')";
-        cards[1].style.backgroundImage = "url('../imgs/to-do.gif')";
-        cards[2].style.backgroundImage = "url('../imgs/pokemem.gif')";
-        cards[3].style.backgroundImage = "url('../imgs/click-counter.gif')";
+        cards[0].style.backgroundImage = "url(../imgs/snake.gif)";
+        cards[1].style.backgroundImage = "url(../imgs/to-do.gif)";
+        cards[2].style.backgroundImage = "url(../imgs/pokemem.gif)";
+        cards[3].style.backgroundImage = "url(../imgs/click-counter.gif)";
+        cards[3].style.backgroundImage = "url(../imgs/gameflix.gif)";
         links[1].addEventListener("click", () => {
             distanceScrolled = project.offsetTop;
             logoWrapper.classList.add("hidden");
