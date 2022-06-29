@@ -449,48 +449,48 @@ a:hover {
 }
 
 .card-container:nth-child(2) .card {
-    background: transparent url("/assets/imgs/snake.jpg") center no-repeat;
+    background: transparent url("../imgs/snake.jpg") center no-repeat;
     background-size: cover;
 }
 
 .card-container:nth-child(2) .card:hover {
-    background-image: url("/assets/imgs/snake.gif");
+    background-image: url("../imgs/snake.gif");
 }
 
 .card-container:nth-child(3) .card {
-    background: transparent url("/assets/imgs/to-do.jpg") center no-repeat;
+    background: transparent url("../imgs/to-do.jpg") center no-repeat;
     background-size: cover;
 }
 
 .card-container:nth-child(3) .card:hover {
-    background-image: url("/assets/imgs/to-do.gif");
+    background-image: url("../imgs/to-do.gif");
 }
 
 .card-container:nth-child(4) .card {
-    background: transparent url("/assets/imgs/pokemem.jpg") center no-repeat;
+    background: transparent url("../imgs/pokemem.jpg") center no-repeat;
     background-size: cover;
 }
 
 .card-container:nth-child(4) .card:hover {
-    background-image: url("/assets/imgs/pokemem.gif");
+    background-image: url("../imgs/pokemem.gif");
 }
 
 .card-container:nth-child(5) .card {
-    background: transparent url("/assets/imgs/click-counter.jpg") center no-repeat;
+    background: transparent url("../imgs/click-counter.jpg") center no-repeat;
     background-size: cover;
 }
 
 .card-container:nth-child(5) .card:hover {
-    background-image: url("/assets/imgs/click-counter.gif");
+    background-image: url("../imgs/click-counter.gif");
 }
 
 .card-container:nth-child(6) .card {
-    background: transparent url("/assets/imgs/gameflix.jpg") center no-repeat;
+    background: transparent url("../imgs/gameflix.jpg") center no-repeat;
     background-size: cover;
 }
 
 .card-container:nth-child(6) .card:hover {
-    background-image: url("/assets/imgs/gameflix.gif");
+    background-image: url("../imgs/gameflix.gif");
 }
 
 .card-text {
